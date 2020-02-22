@@ -34,7 +34,8 @@ https://edw216.github.io/rasp/
 `sudo nano /home/pi/start.sh`
 
 파일에 아래와 같이 적은 후 저장한다.
-`#! /bin/sh<br/>sudo lxterminal command="python3  /home/pi/파이썬폴더/실행 할 파이썬파일.py"`
+`#! /bin/sh
+sudo lxterminal command="python3  /home/pi/파이썬폴더/실행 할 파이썬파일.py"`
 
 다시 sh파일이 저장한 경로로 이동하여
 
