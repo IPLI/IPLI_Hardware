@@ -61,6 +61,7 @@ sudo lxterminal command="python3  /home/pi/파이썬폴더/실행 할 파이썬�
 `@/home/pi/start.sh`
 
 **3. profile 직접 수정**
+
 위의 경우(1 ,2)가 안될 시 `sudo nano /etc/profile` 입력</br>
    맨끝 fi 뒤에 실행하고자 하는 명령어를 추가</br>
    스크립트가 파이썬일 때 `python /home/pi/start.py` 입력</br>
