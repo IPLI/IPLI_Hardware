@@ -11,7 +11,7 @@ This project requires a subnet configuration between the server, the hardware an
 * H/W
   * RaspberryPi 3 b+
   * HC-SR04
-  * Picanera 8mp v2
+  * Picamera 8mp v2
   * Road cell hx711
   * Road cell ADC
 
