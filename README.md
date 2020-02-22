@@ -29,14 +29,12 @@ https://edw216.github.io/rasp/
 
 ### **Raspbian Autostart**</br>
 
-**1.실행 가능한 파이썬 스크립트 생성
+**1.실행 가능한 파이썬 스크립트 생성**
 
 `sudo nano /home/pi/start.sh`
 
 파일에 아래와 같이 적은 후 저장한다.
-`#! /bin/sh
-
-sudo lxterminal command="python3  /home/pi/파이썬폴더/실행 할 파이썬파일.py"`
+`#! /bin/sh<br/>sudo lxterminal command="python3  /home/pi/파이썬폴더/실행 할 파이썬파일.py"`
 
 다시 sh파일이 저장한 경로로 이동하여
 
@@ -46,7 +44,7 @@ sudo lxterminal command="python3  /home/pi/파이썬폴더/실행 할 파이썬�
 
 `sudo chmod +x start.sh`
 
-**2. autostart에 등록
+**2. autostart에 등록**
 
 `sudo nano /etc/xdg/lxsession/LXDE-pi/autostart`
 
