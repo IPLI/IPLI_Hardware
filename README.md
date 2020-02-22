@@ -25,6 +25,13 @@ This project requires a subnet configuration between the server, the hardware an
 https://edw216.github.io/rasp/
 2. 파이썬 3.7버전 다운로드
 https://edw216.github.io/rasp/
+3. 파이카메라 초기설정
+ - 라즈베리파이 터미널 창에서 `sudo raspi-config` 명령어 입력</br>
+ - Interfacing Options 항목선택</br>
+ - Camera 항목 선택</br>
+ - enabled 선택 후 확인 </br>
+ - raspi-config 창으로 돌아와서 finish 선택 후 reboot</br>
+ - 터미널 창을 키고 `raspistill -o test.jpg` 명령어를 통해 테스트확인</br></br>
 
 
 ### **Raspbian Autostart**</br>
@@ -52,6 +59,13 @@ sudo lxterminal command="python3  /home/pi/파이썬폴더/실행 할 파이썬�
 맨 마지막 줄에 sh파일의 경로를 적어준다.
 
 `@/home/pi/start.sh`
+
+**3. profile 직접 수정**
+위의 경우(1 ,2)가 안될 시 `sudo nano /etc/profile` 입력</br>
+   맨끝 fi 뒤에 실행하고자 하는 명령어를 추가</br>
+   스크립트가 파이썬일 때 `python /home/pi/start.py` 입력</br>
+   스크립트가 쉘일 때 `./home/pi/start.sh` 입력 </br>
+   Autostart 가 실행되는지 터미널 창에 `sudo reboot` 입력</br>
 
 
 ### **How to communicate with the Server**</br>
