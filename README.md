@@ -3,7 +3,7 @@ Image Processing Living Intelligence_Hardware
 
 This is a repository for Hardware module of Image Processing Living Intelligence.</br>
 
-This project requires a subnet configuration between the server, the hardware and the Android module.</br>
+This project requires a **subnet** configuration between the server, the hardware and the Android module.</br>
 
 
 ### **Requirements**</br>
